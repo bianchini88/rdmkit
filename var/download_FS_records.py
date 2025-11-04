@@ -62,7 +62,10 @@ headers = {
   'Content-Type': 'application/json'
 }
 
-fairsharing_token = get_fairsharing_token(args.username, args.password)
+
+args = process_args()
+if args.reg:
+    fairsharing_token = get_fairsharing_token(args.username, args.password)
 response = requests.request("POST", url_base+"users/sign_in", headers=headers, data=payload)
 data = response.json()
 jwt = data['jwt']

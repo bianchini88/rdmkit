@@ -25,7 +25,7 @@ jobs:
           pip install ruamel.yaml requests python-frontmatter
       - name: Run registry lookup for the tools file
         run: | 
-          python var/tools_validator.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
+          python var/download_FS_records.py --reg --username ${{ secrets.FAIRSHARING_USERNAME }} --password "${{ secrets.FAIRSHARING_PASSWORD }}"
       - name: Show differences
         run: |
           git diff --stat

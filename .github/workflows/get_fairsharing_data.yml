@@ -6,12 +6,12 @@ on:
     - cron:  '0 13 * * 1'
   workflow_dispatch:
 
-  jobs:
-    validation:
-      runs-on: ubuntu-latest
-      strategy:
-      matrix:
-        python-version: [3.8]
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    strategy:
+    matrix:
+      python-version: [3.8]
     steps:
       - name: Checkout
         uses: actions/checkout@v3

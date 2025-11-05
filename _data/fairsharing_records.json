@@ -1,0 +1,198 @@
+[
+    {
+        "attributes": {
+            "abbreviation": "SPLASH",
+            "countries": [
+                "United States"
+            ],
+            "created_at": "2025-07-29T23:16:35.576Z",
+            "description": "This FAIRsharing record describes: The SPLASH (SPectraL hASH) identifier is a unique and unambiguous database-independent spectral identifier for chemical structures. It contains four separate blocks that define different layers of information, separated by dashes. The first block is the SPLASH identifier, the second and third are spectral summary blocks, and the fourth is the full spectrum hash block. The first block (splash10) encodes the SPLASH identifier, starting with letters for semantic web compatibility, followed by a number representing the measurement type (1 for MS, 2 and above for other data types to be included in the future) and the SPLASH version number, starting at 0, to allow future specification updates. The the second and third blocks are , intensities are summed over fixed (but different) bin sizes and wrapped over ten bins. The second block (0002) is formed using a reduced spectrum (the top ten or fewer ions greater than 10% of the base peak). This reduced spectrum is summed over bins of 5 Da. Each bin is then scaled to a single-digit integral value in base 3 (0\u20132), and the resulting 10 digit histogram is converted to a base 36 number, resulting in a 4-digit block. In the third block (0900000000) the intensities are summed over 100-Da bin sizes, each bin is then scaled to a single-digit, integral base-10 digit (0\u20139). The fourth block (full spectrum hash) is represented by a Secure Hash Algorithm SHA256 (numbers and lowercase letters only), calculated in hexadecimal notation and truncated to 20 characters. The full spectrum string of m/z and relative intensity pairs are sorted by ascending m/z and then by descending intensity. The m/z value is multiplied by 10^6, cast to a long (64-bit) integer and joined with the normalized intensity as strings separated by a colon. The resulting ion pairs are then joined, delimited by a single space.",
+            "doi": null,
+            "domains": [
+                "Mass spectrum"
+            ],
+            "exhaustive_licences": false,
+            "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+            "fairsharing_registry": "Standard",
+            "grants": [
+                {
+                    "created_at": "2025-07-29T23:24:51.313Z",
+                    "fairsharing_record_id": 6678,
+                    "grant_id": null,
+                    "id": 13555,
+                    "is_lead": false,
+                    "organisation_id": 4995,
+                    "relation": "maintains",
+                    "saved_state": {
+                        "id": 4995,
+                        "is_lead": false,
+                        "name": "MassBank of North America (MoNA)",
+                        "relation": "maintains",
+                        "types": [
+                            "University"
+                        ]
+                    },
+                    "updated_at": "2025-07-29T23:24:51.313Z"
+                }
+            ],
+            "internal_identifiers": null,
+            "legacy_ids": [],
+            "licence_links": [
+                {
+                    "licence_id": 88,
+                    "licence_name": "BSD-3-Clause License (Modified BSD License) (New BSD License)",
+                    "licence_url": "https://opensource.org/licenses/BSD-3-Clause",
+                    "link_id": 4409,
+                    "relation": "applies_to_content"
+                }
+            ],
+            "linked_records": [
+                {
+                    "link_id": 25450,
+                    "linked_record_id": 1477,
+                    "linked_record_name": "IUPAC International Chemical Identifier",
+                    "linked_record_registry": "Standard",
+                    "linked_record_type": "identifier_schema",
+                    "relation": "related_to"
+                },
+                {
+                    "link_id": 25451,
+                    "linked_record_id": 2329,
+                    "linked_record_name": "Wikidata",
+                    "linked_record_registry": "Database",
+                    "linked_record_type": "repository",
+                    "relation": "related_to"
+                },
+                {
+                    "link_id": 25452,
+                    "linked_record_id": 3896,
+                    "linked_record_name": "Global Natural Products Social Molecular Networking",
+                    "linked_record_registry": "Database",
+                    "linked_record_type": "repository",
+                    "relation": "related_to"
+                },
+                {
+                    "link_id": 25453,
+                    "linked_record_id": 2349,
+                    "linked_record_name": "MassBank Europe",
+                    "linked_record_registry": "Database",
+                    "linked_record_type": "knowledgebase",
+                    "relation": "related_to"
+                },
+                {
+                    "link_id": 25454,
+                    "linked_record_id": 1179,
+                    "linked_record_name": "HUPO PSI Mass Spectrometry Controlled Vocabulary",
+                    "linked_record_registry": "Standard",
+                    "linked_record_type": "terminology_artefact",
+                    "relation": "related_to"
+                },
+                {
+                    "link_id": 25455,
+                    "linked_record_id": 2084,
+                    "linked_record_name": "The Human Metabolome Database",
+                    "linked_record_registry": "Database",
+                    "linked_record_type": "knowledgebase",
+                    "relation": "related_to"
+                },
+                {
+                    "link_id": 25456,
+                    "linked_record_id": 1711,
+                    "linked_record_name": "MetaboLights",
+                    "linked_record_registry": "Database",
+                    "linked_record_type": "repository",
+                    "relation": "related_to"
+                }
+            ],
+            "linking_records": [],
+            "metadata": {
+                "abbreviation": "SPLASH",
+                "citations": [
+                    {
+                        "doi": "10.1038/nbt.3689",
+                        "publication_id": 4958,
+                        "pubmed_id": 27824832
+                    }
+                ],
+                "contacts": [
+                    {
+                        "contact_email": "ofiehn@ucdavis.edu",
+                        "contact_name": "Oliver Fiehn",
+                        "contact_orcid": "0000-0002-6261-8928"
+                    }
+                ],
+                "cross_references": [
+                    {
+                        "name": "splash",
+                        "portal": "Other",
+                        "url": "https://bioregistry.io/registry/splash"
+                    },
+                    {
+                        "name": "splash key",
+                        "portal": "OLS",
+                        "url": "http://purl.obolibrary.org/obo/MS_1002599"
+                    }
+                ],
+                "description": "The SPLASH (SPectraL hASH) identifier is a unique and unambiguous database-independent spectral identifier for chemical structures. It contains four separate blocks that define different layers of information, separated by dashes. The first block is the SPLASH identifier, the second and third are spectral summary blocks, and the fourth is the full spectrum hash block. The first block (splash10) encodes the SPLASH identifier, starting with letters for semantic web compatibility, followed by a number representing the measurement type (1 for MS, 2 and above for other data types to be included in the future) and the SPLASH version number, starting at 0, to allow future specification updates. The the second and third blocks are , intensities are summed over fixed (but different) bin sizes and wrapped over ten bins. The second block (0002) is formed using a reduced spectrum (the top ten or fewer ions greater than 10% of the base peak). This reduced spectrum is summed over bins of 5 Da. Each bin is then scaled to a single-digit integral value in base 3 (0\u20132), and the resulting 10 digit histogram is converted to a base 36 number, resulting in a 4-digit block. In the third block (0900000000) the intensities are summed over 100-Da bin sizes, each bin is then scaled to a single-digit, integral base-10 digit (0\u20139). The fourth block (full spectrum hash) is represented by a Secure Hash Algorithm SHA256 (numbers and lowercase letters only), calculated in hexadecimal notation and truncated to 20 characters. The full spectrum string of m/z and relative intensity pairs are sorted by ascending m/z and then by descending intensity. The m/z value is multiplied by 10^6, cast to a long (64-bit) integer and joined with the normalized intensity as strings separated by a colon. The resulting ion pairs are then joined, delimited by a single space.",
+                "homepage": "https://splash.fiehnlab.ucdavis.edu/",
+                "identifier": 6678,
+                "name": "The Spectral Hash Identifier",
+                "regular_expression": "^\\d[A-Z-a-z0-9]-[A-Za-z0-9]+-[A-Za-z0-9]+$",
+                "status": "ready",
+                "support_links": [
+                    {
+                        "name": "SPLASH on GitHub",
+                        "type": "Github",
+                        "url": "https://github.com/berlinguyinca/spectra-hash"
+                    }
+                ],
+                "year_creation": 2015
+            },
+            "name": "FAIRsharing record for: The Spectral Hash Identifier",
+            "object_types": [
+                "dataset"
+            ],
+            "organisation_links": [
+                {
+                    "fairsharing_record_id": 6678,
+                    "link_id": 13555,
+                    "organisation_id": 4995,
+                    "organisation_name": "MassBank of North America (MoNA)",
+                    "organisation_types": [
+                        "University"
+                    ],
+                    "relation": "maintains"
+                }
+            ],
+            "publications": [
+                {
+                    "authors": "Wohlgemuth G, Mehta SS, Mejia RF, Neumann S, Pedrosa D, Pluskal T, Schymanski EL, Willighagen EL, Wilson M, Wishart DS, Arita M, Dorrestein PC, Bandeira N, Wang M, Schulze T, Salek RM, Steinbeck C, Nainala VC, Mistrik R, Nishioka T, Fiehn O",
+                    "created_at": "2025-07-29T23:20:54.726Z",
+                    "doi": "10.1038/nbt.3689",
+                    "id": 4958,
+                    "journal": "Nature biotechnology",
+                    "pubmed_id": 27824832,
+                    "title": "SPLASH, a hashed identifier for mass spectra.",
+                    "updated_at": "2025-07-29T23:20:54.726Z",
+                    "url": "https://doi.org/10.1038/nbt.3689",
+                    "year": 2016
+                }
+            ],
+            "record_type": "identifier_schema",
+            "subjects": [
+                "Lipidomics",
+                "Metabolomics",
+                "Proteomics"
+            ],
+            "taxonomies": [
+                "Not applicable"
+            ],
+            "updated_at": "2025-09-22T12:03:13.463Z",
+            "url": "https://fairsharing.org/6678",
+            "url_for_logo": null,
+            "user_defined_tags": []
+        },
+        "id": "6678",
+        "type": "fairsharing_records"
+    }
+]

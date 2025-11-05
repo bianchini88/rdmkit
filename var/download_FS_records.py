@@ -82,7 +82,7 @@ response = requests.request("GET", url_base+"fairsharing_records/?page[size]=1",
 
 if response.ok:
     all_records = json.loads(response.text)['data']
-    file_records = open('../data/fairsharing_records.json', "w")
+    file_records = open('_data/fairsharing_records.json', "w")
     file_records.write(json.dumps(all_records, indent=4, sort_keys=True))
     file_records.close()
     sys.exit()

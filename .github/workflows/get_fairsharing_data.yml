@@ -9,7 +9,7 @@ on:
 jobs:
   validation:
     runs-on: ubuntu-latest
-    strategy:
+    strategy
       matrix:
         python-version: [3.8]
     steps:
@@ -34,13 +34,13 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: Update tool/resource_list.yaml
-          title: 'Automatic tool/resource-list update'
+          commit-message: test FAIRsharing integration
+          title: 'Automatic tool/FAIRsharing test'
           body: |
             This PR is automatically generated. Please verify if these changes are valid.
           labels: |
             automatic PR
-          reviewers: bedroesb
+          reviewers: bianchini88
           branch: list_updates
           base: master
       - name: Check output

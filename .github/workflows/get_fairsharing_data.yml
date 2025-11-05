@@ -9,7 +9,7 @@ on:
 jobs:
   validation:
     runs-on: ubuntu-latest
-    strategy
+    strategy:
       matrix:
         python-version: [3.8]
     steps:

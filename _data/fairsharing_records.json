@@ -1,0 +1,130 @@
+[
+    {
+        "attributes": {
+            "abbreviation": null,
+            "countries": [
+                "Turkey"
+            ],
+            "created_at": "2025-11-27T12:19:04.504Z",
+            "description": "This FAIRsharing record describes: GCRIS is an institutional research information system and open academic repository run by the Izmir Institute of Technology.",
+            "doi": null,
+            "domains": [],
+            "exhaustive_licences": false,
+            "fairsharing_licence": "https://creativecommons.org/licenses/by-sa/4.0/. Please link to https://fairsharing.org and https://api.fairsharing.org/img/fairsharing-attribution.svg for attribution.",
+            "fairsharing_registry": "Database",
+            "grants": [
+                {
+                    "created_at": "2026-01-22T17:05:23.446Z",
+                    "fairsharing_record_id": 7368,
+                    "grant_id": null,
+                    "id": 14692,
+                    "is_lead": false,
+                    "organisation_id": 5446,
+                    "relation": "maintains",
+                    "saved_state": {
+                        "id": 5446,
+                        "is_lead": false,
+                        "name": "Izmir Institute of Technology",
+                        "relation": "maintains",
+                        "types": [
+                            "Research institute"
+                        ]
+                    },
+                    "updated_at": "2026-01-22T17:05:23.446Z"
+                }
+            ],
+            "internal_identifiers": null,
+            "legacy_ids": [],
+            "licence_links": [],
+            "linked_records": [
+                {
+                    "link_id": 26752,
+                    "linked_record_id": 1538,
+                    "linked_record_name": "Handle",
+                    "linked_record_registry": "Standard",
+                    "linked_record_type": "identifier_schema",
+                    "relation": "implements"
+                }
+            ],
+            "linking_records": [],
+            "metadata": {
+                "abbreviation": null,
+                "citation_to_related_publications": "yes",
+                "citations": [],
+                "contacts": [
+                    {
+                        "contact_email": "info@mysite.com",
+                        "contact_name": "General Contact",
+                        "contact_orcid": null
+                    }
+                ],
+                "cross_references": [
+                    {
+                        "name": "re3data:r3d100013897",
+                        "portal": "re3data",
+                        "url": "https://www.re3data.org/repository/r3d100013897"
+                    }
+                ],
+                "data_access_condition": {
+                    "type": "partially open",
+                    "url": "https://gcris.iyte.edu.tr/browse/accessright"
+                },
+                "data_access_for_pre_publication_review": "not found",
+                "data_contact_information": "no",
+                "data_curation": {
+                    "type": "not found"
+                },
+                "data_deposition_condition": {
+                    "type": "controlled"
+                },
+                "data_preservation_policy": {},
+                "data_versioning": "no",
+                "description": "GCRIS is an institutional research information system and open academic repository run by the Izmir Institute of Technology.",
+                "homepage": "https://gcris.iyte.edu.tr/",
+                "identifier": 7368,
+                "name": "IZTECH GCRIS Premium Database",
+                "resource_sustainability": {},
+                "status": "ready",
+                "support_links": [
+                    {
+                        "name": "GCRIS Guide",
+                        "type": "Help documentation",
+                        "url": "https://www.gcris.com/egitim-videolar%C4%B1"
+                    }
+                ]
+            },
+            "name": "FAIRsharing record for: IZTECH GCRIS Premium Database",
+            "object_types": [
+                "object type agnostic"
+            ],
+            "organisation_links": [
+                {
+                    "fairsharing_record_id": 7368,
+                    "link_id": 14692,
+                    "organisation_id": 5446,
+                    "organisation_name": "Izmir Institute of Technology",
+                    "organisation_types": [
+                        "Research institute"
+                    ],
+                    "relation": "maintains"
+                }
+            ],
+            "publications": [],
+            "record_type": "repository",
+            "subjects": [
+                "Subject Agnostic"
+            ],
+            "taxonomies": [
+                "All"
+            ],
+            "updated_at": "2026-01-22T17:11:34.128Z",
+            "url": "https://fairsharing.org/7368",
+            "url_for_logo": null,
+            "user_defined_tags": [
+                "institutional repository"
+            ]
+        },
+        "id": "7368",
+        "type": "fairsharing_records"
+    }
+]

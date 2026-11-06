@@ -40,7 +40,7 @@ Agroecology studies often combine field observations, sensor measurements, remot
 
 ### Solutions
 The following practices help you ensure agroecology data remain comparable across sites and reusable:
-- Use standardised protocols and templates to harmonise sampling and field observations across teams and sites (e.g. by maintaining shared, versioned methods in protocols.io, or aligning practices with long-term monitoring initiatives such as [LTER protocols](https://lter.kbs.msu.edu/protocols)).
+- Use standardised protocols and templates to harmonise sampling and field observations across teams and sites (e.g. by maintaining shared, versioned methods in protocols.io, or aligning practices with long-term monitoring initiatives such as [LTER protocols](https://lter.kbs.msu.edu/prot)).
 - Capture a minimum set of contextual information during collection so measurements remain interpretable later (e.g. where/when/how the observation was made).
 - Maintain a simple field-level data dictionary (variables, units, and codes) to avoid inconsistencies between teams and seasons.
 - Apply lightweight QA/QC during collection, for example calibration checks, validation rules, and clear missing-value conventions. More information is available at [Your task - Data Quality](data_quality).

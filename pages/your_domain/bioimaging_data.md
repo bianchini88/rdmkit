@@ -31,7 +31,7 @@ An image is much more than a collection of zeros and ones.
 The image will contain the binary representing the pixels on screen but it is usually packed with useful metadata. You will find the obvious keys indicating how to interpret the zeros and ones, you can also find a lot of acquisition metadata e.g. hardware/instrument used, settings used, etc.
 
 The number of image proprietary formats is very large and keeps increasing. It is challenging to support so many proprietary file formats i.e. read/extract metadata.
-The {% tool "bio-formats" %} library currently supports over [150 different file formats](https://bio-formats.readthedocs.io/en/latest/supported-formats.html).
+The {% tool "bio-formats" %} library currently supports over [150 different file formats](https://bio-formats.readthedocs.io/en/latest/supported-form).
 The [Dataset Structure Table](https://bio-formats.readthedocs.io/en/latest/formats/dataset-table.html) shows the extension of the files to read and indicates the structure of the image itself e.g. single file, multiple files, one image file and a companion file, etc.
 
 ### Data management challenges

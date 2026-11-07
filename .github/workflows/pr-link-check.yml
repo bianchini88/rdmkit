@@ -33,7 +33,7 @@ jobs:
   linkChecker:
     # Draft PRs are skipped; the check runs once the PR is marked ready for review.
     if: |
-      github.repository_owner == 'elixir-europe' && !github.event.pull_request.draft
+      github.repository_owner == 'bianchini88' && !github.event.pull_request.draft
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
